@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="interests.html">Interests</a>
-        <a href="favourites.html">Favourites</a>
-    </nav> 
+        <a href="index.html" class="link_style1">Home</a>
+        <a href="about.html" class="link_style2">About</a>
+        <a href="interests.html" class="link_style1">Interests</a>
+        <a href="favourites.html" class="link_style2">Favourites</a>
+    </nav>
     <head>
-        <title>My Intrests</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interests</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        My main interests are 
+        <div class="container mt-5">
+            <h1 class="text-center mb-4">My Interests</h1>
+            
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Interest</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Disc Golf</td>
+                        <td>
+                            <img src="Disc.jpeg" alt="Disc Golf" class="img-fluid">
+                        </td>
+                        <td>I enjoy playing disc golf because it's a great outdoor activity to play with friends and a good way to get your steps in.</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="cake.jpg" alt="Food" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="shrimp.jpg" alt="Food" class="img-fluid">
+                                </div>
+                            </div>
+                        </td>
+                        <td>I enjoy cooking and going out to eat at new places. I really like to make food for friends and family.</td>
+                    </tr>
+                    <tr>
+                        <td>Cats</td>
+                        <td>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="cat.jpg" alt="Cats" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="cat2.jpg" alt="Cats" class="img-fluid">
+                                </div>
+                            </div>
+                        </td>
+                        <td>I grew up with cats in the house and just think they're really cute and fun to be around. The images show my cat Luna. </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </body>
-    <h2>My Favorite Disc Golf Courses</h2>
-    <ul>
-        <li>The Great Gatsby</li>
-        <li>1984</li>
-        <li>To Kill a Mockingbird</li>
-    </ul>
 
 </html>
