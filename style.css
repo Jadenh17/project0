@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(104, 104, 104, 0.431372549);
+  color: #ba3ada;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ba3ada;
+}
+
+h1 {
+  color: #3498db;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: rgba(0, 255, 255, 0.7254901961);
+}
+
+.list-group-item {
+  background-color: #f9f9f9;
+  border: 1px solid rgba(7, 7, 7, 0);
+}
+.list-group-item:hover {
+  background-color: #e8f5e9;
+}/*# sourceMappingURL=style.css.map */

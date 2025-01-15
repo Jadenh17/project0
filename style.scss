@@ -1,0 +1,32 @@
+$primary-color: #ba3ada;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6868686e;
+    color: $primary-color;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: $primary-color;
+}
+
+h1 {
+    color: #3498db;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #00ffffb9;
+}
+
+.list-group-item {
+    background-color: #f9f9f9;
+    border: 1px solid #07070700;
+    &:hover {
+        background-color: #e8f5e9;
+    }
+}
