@@ -11,8 +11,23 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        About Me
+        <h1>About Me</h1>
+        <p>
+            Hi, I'm Jaden! This is a little bit about me. I love technology, being outside, and spending time with my friends.
+            I am a Geomatics Engineering undergrad student, with a minor in Software Engineering. I think this class is going to be very
+            interesting and reinforce much of what I have learned in previous courses and while working as a software dev.
+            My work has always been more related to backend code so learning front end is quite interesting. 
+        </p>
+        <button id="toggle-colour-mode">Toggle Bold Mode</button>
+
+        <script>
+            document.getElementById("toggle-colour-mode").addEventListener("click", function () {
+                document.body.classList.toggle("colour-mode");
+            });
+        </script>
+    
     </body>
+    
      
 
 </html>
