@@ -9,6 +9,8 @@
     <head>
         <title>About Me</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-fQybjgWLrvvRgtW6hN6mFHANaKGY1I8cz4+2mLtC1AIeD9Nx5ZEBOs2h1mYyld/3" crossorigin="anonymous">
+
     </head>
     <body>
         <h1>About Me</h1>
@@ -23,6 +25,18 @@
         <script>
             document.getElementById("toggle-colour-mode").addEventListener("click", function () {
                 document.body.classList.toggle("colour-mode");
+                if (!document.querySelector(".alert")) {
+                    const alertDiv = document.createElement("div");
+                    alertDiv.className = "alert alert-success";
+                    alertDiv.role = "alert";
+                    alertDiv.textContent = "Wow, you clicked it! Cool.";
+
+                    document.body.appendChild(alertDiv);
+
+                    setTimeout(() => {
+                        alertDiv.remove();
+                    }, 1000);
+                }
             });
         </script>
     
